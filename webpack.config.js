@@ -16,7 +16,7 @@ module.exports = {
         "loaders": [
             {
                 "test": /.js?$/,
-                "loader": 'react-hot!babel-loader',
+                "loader": 'babel-loader',
                 "exclude": /node_modules/
             },
             {
